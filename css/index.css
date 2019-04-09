@@ -45,6 +45,7 @@ header img{
   color: #8b8b8b;
   font-size: 14px;
   padding: 0 10px;
+  margin: 0px;
 }
 .row-advantage{
   padding-bottom: 20px;
@@ -183,8 +184,10 @@ header img{
 }
 .row-process li{
   list-style: none;
-  padding: 0px;
   text-align: center;
+}
+.row-process li img{
+  max-width: 100%;
 }
 .row-crowd {
   background: #edf1f9;
@@ -483,7 +486,7 @@ footer .cp2{
     margin-right: 5px;
   }
   .row-condition{
-    height: 920px;
+    height: 840px;
   }
   .row-condition .wrap{
     width: 1142px;
